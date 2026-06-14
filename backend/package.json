@@ -1,0 +1,29 @@
+{
+  "name": "backend-learning",
+  "version": "1.0.0",
+  "description": "Learning backend node and mongodb",
+  "homepage": "https://github.com/Satish-Rai/Node.js-Learning#readme",
+  "bugs": {
+    "url": "https://github.com/Satish-Rai/Node.js-Learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satish-Rai/Node.js-Learning.git"
+  },
+  "license": "ISC",
+  "author": "Satish",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14"
+  }
+}
